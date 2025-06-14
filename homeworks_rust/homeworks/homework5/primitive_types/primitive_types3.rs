@@ -5,7 +5,9 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let a: Vec<_> = (0..100).collect();
+
+    println!("{:?}", a);
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
